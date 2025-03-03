@@ -7,7 +7,7 @@ Some transformations include:
 - Dropping irrelevant features
 - Impute for numeric features
 - One-hot encode for categorical features
-- Random forest regressor
+- Extreme gradient boosted tree regressor (XGBoost regressor)
 
 This pipeline is done with **GridSearchCV** in order to find the best estimator given multiple hyperparameters.
 
